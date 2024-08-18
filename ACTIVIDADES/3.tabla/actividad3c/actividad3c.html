@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estilo comun a las columnas</title>
+</head>
+<body>
+    <!-- <table>
+        <tr>
+            <th> dato 1</th>
+            <th style="background-color: yellow"> dato 2</th>
+        </tr>
+
+        <tr>
+            <td> calcuta </td>
+            <td style="background-color: yellow;"> naranja </td>
+        </tr>
+
+        <tr>
+            <td> robots </td>
+            <td style="background-color: yellow;">jazz</td>
+        </tr>
+
+    </table> -->
+
+    <table>
+        <colgroup>
+            <col>
+            <col style="background-color: yellow;" span="2">
+        </colgroup>
+
+        <tr>
+            <th> dato 1 </th>
+            <th> dato 2 </th>
+        </tr>
+
+        <tr>
+            <td> calcuta </td>
+            <td> pizza </td>
+        </tr>
+
+        <tr> 
+            <td> robots </td>
+            <td> jazz </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
